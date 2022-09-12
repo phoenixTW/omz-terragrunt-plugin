@@ -1,9 +1,9 @@
 # #!/usr/bin/env bash
 
 OH_MY_ZSH_PLUGINS=$HOME/.oh-my-zsh/plugins
-local current_timestamp=$(date "+%Y%m%d-%H%M%S")
-local TEMP_DIR="${HOME}/.tmp-${current_timestamp}"
-local TERRAGRUNT_PLUGIN_DIR="${TEMP_DIR}/terragrunt-plugin"
+current_timestamp=$(date "+%Y%m%d-%H%M%S")
+TEMP_DIR="${HOME}/.tmp-${current_timestamp}"
+TERRAGRUNT_PLUGIN_DIR="${TEMP_DIR}/terragrunt-plugin"
 
 echo "
  __                       __  __                
@@ -15,7 +15,7 @@ ___  ___  __   __        __   __            ___
  |  |___ |  \ |  \ /~~\ \__> |  \ \__/ | \|  |  
                                                 
 "
-echo "Developed and maintained by "$(tput bold)"Kaustav Chakraborty (https://github.com/phoenixTW)"$(tput sgr 0)
+echo "Developed and maintained by "$(tput bold)"Kaustav Chakraborty (https://github.com/phoenixTW)\n\n\n"$(tput sgr 0)
 
 if [ -f /usr/bin/git ]; then
     mkdir -p "${TEMP_DIR}"
