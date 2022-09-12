@@ -18,7 +18,7 @@ plugins=(... terragrunt)
 
 Run the following command on your terminal,
 ```shell
-sh https://raw.githubusercontent.com/phoenixTW/omz-terragrunt-plugin/main/install.sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/phoenixTW/omz-terragrunt-plugin/main/install.sh)"
 ```
 
 > Developed by [Kaustav Chakraborty](https://github.com/phoenixTW)
